@@ -1,4 +1,4 @@
-# Binary Classification using Machine Learning Models
+# Binary Breast Cancer Classification using Machine Learning Models
 
 
 **ML Assignment 2 – BITS WILP**
@@ -201,5 +201,6 @@ This project successfully demonstrates an end-to-end machine learning workflow f
 Among all implemented models, kNN achieved the highest accuracy (95.61%), while XGBoost achieved the highest AUC (0.9888). Ensemble methods such as Random Forest and XGBoost demonstrated superior performance due to their ability to capture complex patterns and reduce variance.
 
 The Streamlit deployment enhances practical usability by allowing real-time model evaluation through a web interface. The application enables users to upload their own test data, select different models, and visualize performance metrics including confusion matrices and classification reports.
+
 
 
