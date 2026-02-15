@@ -11,7 +11,7 @@
 
 ## 🔗 Submission Links
 **GitHub Repository:** [https://github.com/Vaishnvee-Shinde/2025AA05108-ML-Classification](https://github.com/)  
-**Live Streamlit Application:** [https://2025aa05108-ml-classification.streamlit.app/](https://2025aa05108-ml-classification.streamlit.app/)
+**Live Streamlit Application:** [https://2025aa05108-ml-classification-breast-cancer.streamlit.app/](https://2025aa05108-ml-classification-breast-cancer.streamlit.app/)
 
 ---
 
@@ -201,4 +201,5 @@ This project successfully demonstrates an end-to-end machine learning workflow f
 Among all implemented models, kNN achieved the highest accuracy (95.61%), while XGBoost achieved the highest AUC (0.9888). Ensemble methods such as Random Forest and XGBoost demonstrated superior performance due to their ability to capture complex patterns and reduce variance.
 
 The Streamlit deployment enhances practical usability by allowing real-time model evaluation through a web interface. The application enables users to upload their own test data, select different models, and visualize performance metrics including confusion matrices and classification reports.
+
 
