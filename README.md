@@ -145,6 +145,16 @@ XGBoost matches Logistic Regression's performance with 93.86% accuracy and has t
 5. **Simple Models**: Even simple models like Logistic Regression and kNN achieve >93% accuracy
 6. **All models** achieve AUC > 0.91, indicating good discriminative ability
 
+| ML Model Name | 	Observation about model performance |
+|------------|-------------------------------------------|
+| Logistic Regression |	Achieves 93.86% accuracy with excellent AUC (0.9927). Performs well due to strong linear separability in the dataset and provides stable, balanced predictions across both classes.
+| Decision Tree	 | Shows the lowest performance (91.23% accuracy, AUC 0.9157). Prone to overfitting but provides clear and interpretable classification rules, making it a useful baseline model.
+| kNN	| Achieves the highest accuracy (95.61%) and strong MCC (0.9058). Instance-based learning works effectively with scaled features and captures similarity patterns well.
+| Naive Bayes	| Achieves 92.11% accuracy with high AUC (0.9706). Despite unrealistic independence assumptions, it performs reasonably well and serves as a fast, simple baseline model.
+| Random Forest (Ensemble)	| Achieves 93.86% accuracy with excellent AUC (0.9864). Reduces overfitting compared to Decision Tree through bagging and feature randomness, providing strong overall performance.
+| XGBoost (Ensemble)	| Matches 93.86% accuracy and achieves the highest AUC (0.9888). Gradient boosting captures complex nonlinear patterns and generalizes well.
+
+
 ---
 
 ## 7️⃣ Streamlit Application Features
@@ -201,6 +211,7 @@ This project successfully demonstrates an end-to-end machine learning workflow f
 Among all implemented models, kNN achieved the highest accuracy (95.61%), while XGBoost achieved the highest AUC (0.9888). Ensemble methods such as Random Forest and XGBoost demonstrated superior performance due to their ability to capture complex patterns and reduce variance.
 
 The Streamlit deployment enhances practical usability by allowing real-time model evaluation through a web interface. The application enables users to upload their own test data, select different models, and visualize performance metrics including confusion matrices and classification reports.
+
 
 
 
