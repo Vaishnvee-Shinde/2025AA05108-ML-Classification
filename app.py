@@ -1,4 +1,9 @@
 """
+ML Assignment 2 – BITS WILP
+Student Name: Vaishnvee Subhash Shinde
+BITS ID: 2025AA05108
+Email: 2025aa05108@wilp.bits-pilani.ac.in
+
 ML Classification Models Streamlit App
 This app demonstrates 6 classification models on the Breast Cancer Wisconsin dataset.
 """
@@ -282,3 +287,4 @@ st.markdown("""
 - Models: Logistic Regression, Decision Tree, kNN, Naive Bayes, Random Forest, XGBoost
 - Metrics: Accuracy, AUC, Precision, Recall, F1 Score, MCC Score
 """)
+
